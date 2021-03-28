@@ -715,10 +715,11 @@
 
   <script type="text/javascript">
    $(document).ready(function(){
-      $('#example').popover({
-      'placement': 'right',
-    }).popover('show');
-
+      setTimeout(function() {
+        $('#example').popover({
+        'placement': 'right',
+        }).popover('show');
+      }, 4000);
   });
   </script>
 
